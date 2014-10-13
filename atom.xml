@@ -4,7 +4,7 @@
   <title><![CDATA[走向敏捷]]></title>
   <link href="http://BITA-app.github.io/atom.xml" rel="self"/>
   <link href="http://BITA-app.github.io/"/>
-  <updated>2014-10-13T16:50:14+08:00</updated>
+  <updated>2014-10-13T16:51:49+08:00</updated>
   <id>http://BITA-app.github.io/</id>
   <author>
     <name><![CDATA[易车iOS团队]]></name>
@@ -35,6 +35,36 @@
     Your browser does not support HTML5 video.
   </video>
 </div>
+
+
+<p> </p>
+
+<script type="text/javascript">
+var myVideo=document.getElementById("video1");
+
+function playPause()
+{ 
+if (myVideo.paused) 
+  myVideo.play(); 
+else 
+  myVideo.pause(); 
+} 
+
+function makeBig()
+{ 
+myVideo.width=560; 
+} 
+
+function makeSmall()
+{ 
+myVideo.width=320; 
+} 
+
+function makeNormal()
+{ 
+myVideo.width=420; 
+} 
+</script>
 
 
 <p> </p>
