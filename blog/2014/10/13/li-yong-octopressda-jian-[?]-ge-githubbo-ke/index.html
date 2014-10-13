@@ -9,7 +9,12 @@
   <meta name="author" content="易车iOS团队">
 
   
-  <meta name="description" content="来源：http://beyondvincent.com/blog/2013/08/03/108-creating-a-github-blog-using-octopress/ 小引 Octopress是利用Jekyll博客引擎开发的一个博客系统，生成的静态页面能够很好的在github &hellip;">
+  <meta name="description" content="来源：http://beyondvincent.com/blog/2013/08/03/108-creating-a-github-blog-using-octopress/   播放/暂停 
+  大
+  中
+  小
+   
+              Your browser does not &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -75,7 +80,55 @@
 
 
 <div class="entry-content"><p>来源：<a href="http://beyondvincent.com/blog/2013/08/03/108-creating-a-github-blog-using-octopress/">http://beyondvincent.com/blog/2013/08/03/108-creating-a-github-blog-using-octopress/</a>
-<img src="http://beyondvincent.com/images/2013/08/github_page_and-octopress.png" alt="image" /></p>
+<img src="http://beyondvincent.com/images/2013/08/github_page_and-octopress.png" alt="image" />
+<embed src="http://player.youku.com/player.php/Type/Folder/Fid/22928516/Ob/1/sid/XODAxNTY5OTc2/v.swf" quality="high" width="480" height="400" align="middle" allowScriptAccess="always" allowFullScreen="true" mode="transparent" type="application/x-shockwave-flash"></embed></p>
+
+<div style="text-align:center;">
+  <button onclick="playPause()">播放/暂停</button> 
+  <button onclick="makeBig()">大</button>
+  <button onclick="makeNormal()">中</button>
+  <button onclick="makeSmall()">小</button>
+  <br /> 
+  <video id="video1" width="420" style="margin-top:15px;">
+    <source src="http://www.w3school.com.cn/example/html5/mov_bbb.mp4
+" type="video/mp4" />
+    <source src="/example/html5/mov_bbb.ogg" type="video/ogg" />
+    Your browser does not support HTML5 video.
+  </video>
+</div>
+
+
+<p> </p>
+
+<script type="text/javascript">
+var myVideo=document.getElementById("video1");
+
+function playPause()
+{ 
+if (myVideo.paused) 
+  myVideo.play(); 
+else 
+  myVideo.pause(); 
+} 
+
+function makeBig()
+{ 
+myVideo.width=560; 
+} 
+
+function makeSmall()
+{ 
+myVideo.width=320; 
+} 
+
+function makeNormal()
+{ 
+myVideo.width=420; 
+} 
+</script>
+
+
+<p> </p>
 
 <h2>小引</h2>
 
@@ -266,6 +319,26 @@ config.yml是博客重要的一个配置文件，在config.yml文件中有三大
       <div class="sharing">
   
   
+  
+  
+     <!-- JiaThis Button BEGIN -->
+<div class="jiathis_style_32x32">
+	<a class="jiathis_button_qzone"></a>
+	<a class="jiathis_button_tsina"></a>
+	<a class="jiathis_button_tqq"></a>
+	<a class="jiathis_button_weixin"></a>
+	<a class="jiathis_button_renren"></a>
+	<a href="http://www.jiathis.com/share" class="jiathis jiathis_txt jtico jtico_jiathis" target="_blank"></a>
+	<a class="jiathis_counter_style"></a>
+</div>
+<script type="text/javascript" src="http://v3.jiathis.com/code/jia.js?uid=1394609025895285" charset="utf-8"></script>
+<!-- JiaThis Button END -->
+
+<!-- UY BEGIN -->
+<div id="uyan_frame"></div>
+<script type="text/javascript" src="http://v2.uyan.cc/code/uyan.js"></script>
+<!-- UY END -->
+
   
 </div>
 
