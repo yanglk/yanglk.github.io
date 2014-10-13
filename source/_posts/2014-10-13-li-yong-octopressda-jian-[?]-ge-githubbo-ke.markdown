@@ -38,3 +38,20 @@ rvm rubygems latest
 参考：[Installing Ruby With RVM](http://octopress.org/docs/setup/rvm/)
 
 ###2、安装Octopress
+在安装Octopress之前，请确保你的电脑上已经安装有git了，在终端输入`git --version`，应该可以看到电脑中的git版本(我电脑上输出:`git version 1.7.12.4 (Apple Git-37`))，如果没有显示相关内容，请先安装git。
+git安装之后，利用git命令将octopress从github上clone到本机，如下命令：
+```
+git clone git://github.com/imathis/octopress.git octopress
+cd octopress    # If you use RVM, You'll be asked if you trust the .rvmrc file (say yes).
+ruby --version  # Should report Ruby 1.9.3
+```
+接着安装相关依赖项：
+```
+gem install bundler
+rbenv rehash    # If you use rbenv, rehash to be able to run the bundle command
+bundle install
+```
+最后安装默认的Octopress 主题。
+```
+rake install
+```
