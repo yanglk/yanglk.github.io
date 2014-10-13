@@ -4,7 +4,7 @@
   <title><![CDATA[走向敏捷]]></title>
   <link href="http://BITA-app.github.io/atom.xml" rel="self"/>
   <link href="http://BITA-app.github.io/"/>
-  <updated>2014-10-13T12:12:01+08:00</updated>
+  <updated>2014-10-13T12:14:11+08:00</updated>
   <id>http://BITA-app.github.io/</id>
   <author>
     <name><![CDATA[易车iOS团队]]></name>
@@ -14,13 +14,11 @@
 
   
   <entry>
-    <title type="html"><![CDATA[利用Octopress搭建一个Github博客]]></title>
+    <title type="html"><![CDATA[[转]利用Octopress搭建一个Github博客]]></title>
     <link href="http://BITA-app.github.io/blog/2014/10/13/li-yong-octopressda-jian-%5B%3F%5D-ge-githubbo-ke/"/>
     <updated>2014-10-13T11:00:34+08:00</updated>
     <id>http://BITA-app.github.io/blog/2014/10/13/li-yong-octopressda-jian-[?]-ge-githubbo-ke</id>
-    <content type="html"><![CDATA[<h1>[转]利用Octopress搭建一个Github博客</h1>
-
-<p>来源：<a href="http://beyondvincent.com/blog/2013/08/03/108-creating-a-github-blog-using-octopress/">http://beyondvincent.com/blog/2013/08/03/108-creating-a-github-blog-using-octopress/</a>
+    <content type="html"><![CDATA[<p>来源：<a href="http://beyondvincent.com/blog/2013/08/03/108-creating-a-github-blog-using-octopress/">http://beyondvincent.com/blog/2013/08/03/108-creating-a-github-blog-using-octopress/</a>
 <img src="http://beyondvincent.com/images/2013/08/github_page_and-octopress.png" alt="image" /></p>
 
 <h2>小引</h2>
