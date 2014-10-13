@@ -1,12 +1,10 @@
 ---
 layout: post
-title: "利用Octopress搭建一个Github博客"
+title: "[转]利用Octopress搭建一个Github博客"
 date: 2014-10-13 11:00:34 +0800
 comments: true
 categories: 
 ---
-
-#[转]利用Octopress搭建一个Github博客
 来源：http://beyondvincent.com/blog/2013/08/03/108-creating-a-github-blog-using-octopress/
 ![image](http://beyondvincent.com/images/2013/08/github_page_and-octopress.png)
 
