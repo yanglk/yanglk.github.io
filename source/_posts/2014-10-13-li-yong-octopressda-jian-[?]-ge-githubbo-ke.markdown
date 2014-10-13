@@ -7,7 +7,8 @@ categories:
 ---
 来源：http://beyondvincent.com/blog/2013/08/03/108-creating-a-github-blog-using-octopress/
 ![image](http://beyondvincent.com/images/2013/08/github_page_and-octopress.png)
-
+![video](http://player.youku.com/player.php/Type/Folder/Fid/22928516/Ob/1/sid/XODAxNTY5OTc2/v.swf)
+<embed src="http://player.youku.com/player.php/Type/Folder/Fid/22928516/Ob/1/sid/XODAxNTY5OTc2/v.swf" quality="high" width="480" height="400" align="middle" allowScriptAccess="always" allowFullScreen="true" mode="transparent" type="application/x-shockwave-flash"></embed>
 ##小引
 `Octopress`是利用`Jekyll`博客引擎开发的一个博客系统，生成的静态页面能够很好的在github page上展现。号称是hacker专属的一个博客系统(`A blogging framework for hackers.`)
 
