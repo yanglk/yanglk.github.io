@@ -1,88 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
 
-<!DOCTYPE html>
-<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
-<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
-<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
-<head>
-  <meta charset="utf-8">
-  <title>走向敏捷</title>
-  <meta name="author" content="易车iOS团队">
-
-  
-  <meta name="description" content="来源：http://beyondvincent.com/blog/2013/08/03/108-creating-a-github-blog-using-octopress/   播放/暂停 
-  大
-  中
-  小
-   
-              Your browser does not &hellip;">
-  
-
-  <!-- http://t.co/dKP3o1e -->
-  <meta name="HandheldFriendly" content="True">
-  <meta name="MobileOptimized" content="320">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-
-  
-  <link rel="canonical" href="http://BITA-app.github.io">
-  <link href="/favicon.png" rel="icon">
-  <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
-  <link href="/atom.xml" rel="alternate" title="走向敏捷" type="application/atom+xml">
-  <script src="/javascripts/modernizr-2.0.js"></script>
-  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-  <script>!window.jQuery && document.write(unescape('%3Cscript src="./javascripts/libs/jquery.min.js"%3E%3C/script%3E'))</script>
-  <script src="/javascripts/octopress.js" type="text/javascript"></script>
-  
-  
-
-</head>
-
-<body   >
-  <header role="banner"><hgroup>
-  <h1><a href="/">走向敏捷</a></h1>
-  
-    <h2>易车iOS团队技术博客.</h2>
-  
-</hgroup>
-
-</header>
-  <nav role="navigation"><ul class="subscription" data-subscription="rss">
-  <li><a href="/atom.xml" rel="subscribe-rss" title="subscribe via RSS">RSS</a></li>
-  
-</ul>
-  
-<ul class="main-navigation">
-  <li><a href="/">Blog</a></li>
-  <li><a href="/blog/archives">Archives</a></li>
-</ul>
-
-</nav>
-  <div id="main">
-    <div id="content">
-      <div class="blog-index">
-  
-  
-  
-    <article>
-      
-  <header>
+  <title><![CDATA[走向敏捷]]></title>
+  <link href="http://BITA-app.github.io/atom.xml" rel="self"/>
+  <link href="http://BITA-app.github.io/"/>
+  <updated>2014-10-13T16:51:49+08:00</updated>
+  <id>http://BITA-app.github.io/</id>
+  <author>
+    <name><![CDATA[易车iOS团队]]></name>
     
-      <h1 class="entry-title"><a href="/blog/2014/10/13/li-yong-octopressda-jian-%5B%3F%5D-ge-githubbo-ke/">[转]利用Octopress搭建一个Github博客</a></h1>
-    
-    
-      <p class="meta">
-        
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
 
-
-
-
-<time class='entry-date' datetime='2014-10-13T11:00:34+08:00'><span class='date'><span class='date-month'>Oct</span> <span class='date-day'>13</span><span class='date-suffix'>th</span>, <span class='date-year'>2014</span></span> <span class='time'>11:00 am</span></time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>来源：<a href="http://beyondvincent.com/blog/2013/08/03/108-creating-a-github-blog-using-octopress/">http://beyondvincent.com/blog/2013/08/03/108-creating-a-github-blog-using-octopress/</a>
+  
+  <entry>
+    <title type="html"><![CDATA[[转]利用Octopress搭建一个Github博客]]></title>
+    <link href="http://BITA-app.github.io/blog/2014/10/13/li-yong-octopressda-jian-%5B%3F%5D-ge-githubbo-ke/"/>
+    <updated>2014-10-13T11:00:34+08:00</updated>
+    <id>http://BITA-app.github.io/blog/2014/10/13/li-yong-octopressda-jian-[?]-ge-githubbo-ke</id>
+    <content type="html"><![CDATA[<p>来源：<a href="http://beyondvincent.com/blog/2013/08/03/108-creating-a-github-blog-using-octopress/">http://beyondvincent.com/blog/2013/08/03/108-creating-a-github-blog-using-octopress/</a>
 <img src="http://beyondvincent.com/images/2013/08/github_page_and-octopress.png" alt="image" />
 <embed src="http://player.youku.com/player.php/Type/Folder/Fid/22928516/Ob/1/sid/XODAxNTY5OTc2/v.swf" quality="high" width="480" height="400" align="middle" allowScriptAccess="always" allowFullScreen="true" mode="transparent" type="application/x-shockwave-flash"></embed></p>
 
@@ -95,7 +31,7 @@
   <video id="video1" width="420" style="margin-top:15px;">
     <source src="http://www.w3school.com.cn/example/html5/mov_bbb.mp4
 " type="video/mp4" />
-    <source src="/example/html5/mov_bbb.ogg" type="video/ogg" />
+    <source src="http://BITA-app.github.io/example/html5/mov_bbb.ogg" type="video/ogg" />
     Your browser does not support HTML5 video.
   </video>
 </div>
@@ -298,44 +234,7 @@ config.yml是博客重要的一个配置文件，在config.yml文件中有三大
 <h3>7、小结</h3>
 
 <p>本文介绍了如何利用<code>Octopress</code>搭建一个Github博客。大家在搭建的时候，要是遇到问题，可以回复我。</p>
-</div>
+]]></content>
+  </entry>
   
-  
-
-
-    </article>
-  
-  <div class="pagination">
-    
-    <a href="/blog/archives">Blog Archives</a>
-    
-  </div>
-</div>
-<aside class="sidebar">
-  
-    
-  
-</aside>
-
-    </div>
-  </div>
-  <footer role="contentinfo"><p>
-  Copyright &copy; 2014 - 易车iOS团队 -
-  <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
-</p>
-
-</footer>
-  
-
-
-
-
-
-
-
-
-
-
-
-</body>
-</html>
+</feed>
